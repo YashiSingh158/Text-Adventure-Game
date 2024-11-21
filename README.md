@@ -26,18 +26,25 @@ This is a text-based adventure game written in Java. Players explore rooms, coll
   
 **Commands**
   Movement: go [direction] (e.g., go north, go south).
+  
   Inventory: check inventory.
+  
   NPC Interaction: talk.
+  
   Combat:
     attack: Attack the enemy.
     run: Run from combat.
+    
   Help: help (Displays a list of available commands).
 
 # How to Play
 Clone the repository:
-git clone https://github.com/your-username/TextAdventureGame.git
+  git clone https://github.com/your-username/TextAdventureGame.git
+  
 Open the project in IntelliJ IDEA (or any Java IDE).
+
 Compile and run the TextAdventureGame.java file.
+
 Use the commands to explore, interact, and complete the game.
 
 # Room Descriptions and Layout
