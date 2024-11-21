@@ -6,19 +6,24 @@ This is a text-based adventure game written in Java. Players explore rooms, coll
 **Game Navigation:**
   Navigate between rooms using commands like go north, go south, etc.
   Each room has a description and possible exits.
+  
 **Inventory System:**
   Collect items found in rooms.
   Use the check inventory command to view collected items.
+  
 **NPC Interaction:**
   Interact with NPCs in certain rooms using the talk command.
   NPCs provide hints or items.
+  
 **Combat System:**
   Fight enemies in combat using the attack command.
   Players can also choose to run from battles.
   Health values for the player and enemies are displayed during combat.
+  
 **Win Condition:**
   Reach the Treasure Room and collect the treasure to win.
   If the player's health reaches zero, the game ends with "Game Over."
+  
 **Commands**
   Movement: go [direction] (e.g., go north, go south).
   Inventory: check inventory.
