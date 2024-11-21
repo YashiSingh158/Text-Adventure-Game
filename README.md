@@ -3,23 +3,23 @@
 This is a text-based adventure game written in Java. Players explore rooms, collect items, interact with NPCs, and battle enemies to achieve the ultimate goal: finding the treasure in the Treasure Room.
 
 **Features**
-Game Navigation:
+**Game Navigation:**
   Navigate between rooms using commands like go north, go south, etc.
   Each room has a description and possible exits.
-Inventory System:
+**Inventory System:**
   Collect items found in rooms.
   Use the check inventory command to view collected items.
-NPC Interaction:
+**NPC Interaction:**
   Interact with NPCs in certain rooms using the talk command.
   NPCs provide hints or items.
-Combat System:
+**Combat System:**
   Fight enemies in combat using the attack command.
   Players can also choose to run from battles.
   Health values for the player and enemies are displayed during combat.
-Win Condition:
+**Win Condition:**
   Reach the Treasure Room and collect the treasure to win.
   If the player's health reaches zero, the game ends with "Game Over."
-Commands
+**Commands**
   Movement: go [direction] (e.g., go north, go south).
   Inventory: check inventory.
   NPC Interaction: talk.
@@ -36,22 +36,22 @@ Compile and run the TextAdventureGame.java file.
 Use the commands to explore, interact, and complete the game.
 
 # Room Descriptions and Layout
-Entrance:
+**Entrance:**
   Starting point of the game.
   Exits: North (Forest), East (Dungeon).
 
-Forest:
+**Forest:**
   A dense forest with faint noises.
   Contains a Potion.
   NPC provides a hint about the Treasure Room.
   Exit: South (Entrance).
 
-Dungeon:
+**Dungeon:**
   A dark and damp dungeon.
   Ghost NPC gives a warning about the Treasure Room.
   Exits: North (Treasure Room), West (Entrance).
 
-Treasure Room:
+**Treasure Room:**
   Contains the treasure (goal of the game).
   A monster appears for the final combat.
   Exit: South (Dungeon).
